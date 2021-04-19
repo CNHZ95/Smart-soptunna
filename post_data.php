@@ -1,12 +1,11 @@
 <?php
 
-	// Connection details
 	$servername = "localhost";
 	$database = "container";
 	$username = "";
 	$password = "";
 
-	 // Skapar kopplingen med databasen
+	// Skapar kopplingen med databasen
 	$conn = mysqli_connect($servername, $database, $username, $password);
 
 	// Kontrollerar anslutningen
