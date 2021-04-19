@@ -2,8 +2,8 @@
 
 	// Connection details
 	$servername = "localhost";
-	$username = "arduino";
-	$password = "@l1FcyT*G*yx7aYo";
+	$username = "";
+	$password = "";
 	$database = "container";
 
 	 // Creates the connection with the specified database
