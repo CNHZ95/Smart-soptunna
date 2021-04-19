@@ -1,6 +1,5 @@
 <?php
-
-	// Connection details
+    // Connection details
 	$servername = "localhost";
 	$database = "container";
 	$username = "";
