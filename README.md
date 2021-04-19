@@ -1,3 +1,3 @@
-# Introduktion till projektbaserad produkutveckling
+# Introduktion till projektbaserad produktutveckling
 
 Grupp 13
