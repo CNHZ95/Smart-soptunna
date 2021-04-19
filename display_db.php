@@ -20,12 +20,12 @@
 
   // Connection details
   $servername = "localhost";
-  $database = "container";
   $username = "";
   $password = "";
+  $database = "container";
 
   // Creates the connection with the specified database
-  $conn = mysqli_connect($servername, $database, $username, $password);
+  $conn = mysqli_connect($servername, $username, $password, $database);
 
   if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

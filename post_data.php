@@ -1,12 +1,13 @@
 <?php
-    // Connection details
-	$servername = "localhost";
-	$database = "container";
-	$username = "";
-	$password = "";
 
-	// Creates the connection with the specified database
-	$conn = mysqli_connect($servername, $database, $username, $password);
+	// Connection details
+	$servername = "localhost";
+	$username = "arduino";
+	$password = "@l1FcyT*G*yx7aYo";
+	$database = "container";
+
+	 // Creates the connection with the specified database
+	$conn = mysqli_connect($servername, $username, $password, $database);
 
 	// Check connection
 	if ($conn->connect_error) {
