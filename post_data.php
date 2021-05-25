@@ -1,18 +1,7 @@
 <?php
+	include 'connection.php';
 
-	// Connection details
-	$servername = "localhost";
-	$username = "";
-	$password = "";
-	$database = "container";
-
-	 // Creates the connection with the specified database
-	$conn = mysqli_connect($servername, $username, $password, $database);
-
-	// Check connection
-	if ($conn->connect_error) {
-	  die("Connection failed: " . $conn->connect_error);
-	}
+	$conn = connect();
 
 	$sql = "INSERT INTO sensor_data (Distance) VALUES ('".$_GET["distance"]."')"; 
 
@@ -23,6 +12,6 @@
 	  echo "Error: " . $sql . "<br>" . $conn->error;
 	}
 
-    $conn->close();
+	closeConnection($conn);
 
 ?>
